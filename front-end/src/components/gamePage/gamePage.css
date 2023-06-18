@@ -1,0 +1,135 @@
+/*------------------------------- Game Page -------------------------------*/
+
+body {
+    background: #0b2239;
+    color: #fff;
+   
+}
+
+#gameSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.game-info {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    z-index: 1; 
+    width: 30%;
+    text-align: left;
+}
+
+#gameSection a {
+    background: #0e2a47;
+    border-style: solid;
+    border-color: #2bc48a;
+    border-radius: 8px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    top: 30px;
+    padding: 8px;
+    color: #2bc48a;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration-line: none;
+    display: inline-block;
+}
+
+#gameSection a:hover {
+    background-color: #23364b;
+}
+
+.galaxy-img {
+    width:80%;
+    height: auto;
+}
+
+.game-icon {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    color: #2bc48a;
+    font-size: 4rem;
+}
+
+
+
+@media (max-width: 992px) {
+    .row-box {
+        gap: 40px;
+    }
+    .col-box-description h1 {
+        margin-bottom: 2rem;
+        font-size: 36px;
+    }
+    .col-box-description p {
+        font-size: 16px;
+    }
+    .galaxy-img {
+        width:100%;
+    }
+    .game-icon {
+        right: 20px;
+        bottom: 20px;
+        font-size: 3rem;
+    }
+    .game-info {
+        width: 40%;
+    }
+}
+
+@media (max-width: 830px) {
+    .row-box {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-box-description h1 {
+        margin-bottom: 1rem;
+    }
+    .col-box-description p {
+        font-size: 14px;
+    }
+    .row-box {
+        gap: 10px;
+    }
+    .galaxy-img {
+        width:130%;
+    }
+    .game-icon {
+        right: 20px;
+        bottom: 20px;
+    }
+    .game-info {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .row-box {
+        width: 95%;
+    }
+    .galaxy-img {
+        width:150%;
+    }
+}
+
+@media (max-width: 500px) {
+    .row-box {
+        gap: 5px;
+    }
+    .galaxy-img {
+        width:160%;
+    }
+    .game-icon {
+        right: 10px;
+        bottom: 10px;
+    }
+}

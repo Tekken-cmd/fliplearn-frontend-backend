@@ -1,0 +1,19 @@
+
+/*------------------------------- Button Design -------------------------------*/
+
+.button {
+    background: #0e2a47;
+    border-style: solid;
+    border-color: #2bc48a;
+    border-radius: 8px;
+    position: relative;
+    top: 30px;
+    padding: 8px;
+    color: #2bc48a;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration-line: none;
+}
+    
+.button:hover {
+    background-color: #23364b;
+}

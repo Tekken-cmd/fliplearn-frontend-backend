@@ -1,0 +1,24 @@
+/*------------------------------- Vocabulary Page -------------------------------*/
+
+body {
+    background: #0b2239;
+    color: #fff;
+    margin-top: 67px;
+}
+
+#vocabularyPage {
+    padding: 10px;
+}
+
+.card-container {
+    padding: 5px;
+}
+
+.container {
+    margin: 10px auto 10px auto;
+}
+
+.container .row {
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 2rem;
+}

@@ -1,0 +1,77 @@
+/*------------------------------- Rotating Card Design -------------------------------*/
+
+.r-card {
+    perspective: 150rem;
+    position: relative;
+    height: 250px;
+    width: 200px;
+    box-shadow: none;
+    background: none;
+    border-radius: 15px;
+    border: none;
+}
+
+.r-card-side {
+    height: 100%;
+    width: 100%;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #2bc48a;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow-y: hidden; 
+}
+
+.r-card-side.r-back {
+    transform: rotateY(-180deg);
+    background-color: #0b2239;
+    padding: 5px;
+}
+
+.r-card-side.r-front {
+    background-color: #0b2239;
+    padding: 5px;
+}
+
+.r-card:hover .r-card-side.r-front {
+    transform: rotateY(180deg);
+}
+
+.r-card:hover .r-card-side.r-back {
+    transform: rotateY(0deg);
+}
+
+/*---------- Infinite rotating card ----------*/
+
+.rotate-front {
+    animation: rotation-front 6s infinite linear;
+}
+
+@keyframes rotation-front {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.rotate-back {
+    animation: rotation-back 6s infinite linear;
+}
+
+@keyframes rotation-back {
+    from {
+        transform: rotateY(180deg);
+    }
+    to {
+        transform: rotateY(540deg);
+    }
+}

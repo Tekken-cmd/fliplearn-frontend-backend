@@ -1,0 +1,26 @@
+/*------------------------------- Logo  -------------------------------*/
+
+.logo {
+    height: 2rem;
+    width: 1.5rem;
+    background: #0e2a47;
+    border-style: solid;
+    border-color: #2bc48a;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/*---------- Infinite rotating logo ----------*/
+
+.rotate {
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}

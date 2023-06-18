@@ -1,0 +1,89 @@
+/*------------------------------- About Section -------------------------------*/
+
+#aboutSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0b2239;
+    padding: 50px;
+    margin-top: 67px;
+}
+
+/* align-items = aligns vertically, justify-content = aligns horizontally*/
+/* but first we need to make the parent container's display: flex */
+.container-box {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background: #0e2a47;
+    border-radius: 16px;
+    padding: 50px 60px;
+}
+
+.row-box {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    gap: 50px;
+}
+
+.col-box-image {
+    display: flex;
+    justify-content: center;
+}
+
+.col-box-description {
+    color: #fff;
+    text-align: justify;
+}
+
+.col-box-description h1 {
+    margin-bottom: 2rem;
+    color: #2bc48a;
+    font-size: 46px;
+    text-align: left;
+}
+
+@media (max-width: 992px) {
+    .row-box {
+        gap: 40px;
+    }
+    .col-box-description h1 {
+        margin-bottom: 2rem;
+        font-size: 36px;
+    }
+    .col-box-description p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 830px) {
+    .row-box {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-box-description h1 {
+        margin-bottom: 1rem;
+    }
+    .col-box-description p {
+        font-size: 14px;
+    }
+    .row-box {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .row-box {
+        width: 95%;
+    }
+}
+
+@media (max-width: 500px) {
+    .row-box {
+        gap: 5px;
+    }
+}

@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold", sans-serif;
+    display: inline-block;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+

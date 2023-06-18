@@ -1,0 +1,82 @@
+/*------------------------------- Sign Up Page -------------------------------*/
+.log-in-container {
+    margin: 7% auto;
+    text-align: center;
+}
+.log-in-container h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+.log-in-container p {
+    margin-top: 20px;
+    font-size: 14px;
+    display: inline-block;
+}
+.log-in-form {
+    margin: 2px auto 30px auto;
+    background: #0e2a47;
+    border-style: none;
+    box-shadow: none;
+    border-radius: 15px;
+    padding: 50px;
+    width: 400px;
+    justify-content: center;
+} 
+input {
+    background: none;
+    border-style: solid;
+    border-color: #2bc48a;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto -2px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+
+.topInput {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.bottomInput {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.logInButton {
+    margin-top: 30px;
+    background: none;
+    padding: 10px 15px;
+    color: #fff;
+    border-style: solid;
+    border-color: #2bc48a;
+    border-radius: 7px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.signUpLink {
+    display: inline-block;
+    margin-top: 10;
+    background: none;
+    color: #2bc48a;
+    border-style: none;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+input:hover {
+    background-color: #0b2239;
+}
+
+.logInButton:hover {
+    background-color: #0b2239;
+    color: #2bc48a;
+}
+
+.signUpLink:hover {
+    color: #fff;
+}

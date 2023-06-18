@@ -1,0 +1,24 @@
+/*------------------------------- Navbar Section -------------------------------*/
+
+nav {
+    z-index: 1;
+}
+
+.navbar-icon {
+    font-size: 1.2rem;
+}
+
+.nav-item a:hover {
+    border-style: solid;
+    border-color: #2bc48a;
+    border-radius: 6px;
+}
+
+hr {
+    border-color: #fff;
+}
+
+p {
+    padding-top: 8px;
+    padding-right: 12px;
+}

@@ -1,0 +1,16 @@
+
+/*------------------------------- Grammar Section -------------------------------*/
+
+#grammarSection {
+    background: #0b2239;
+    color: #fff;
+    padding: 50px;
+}
+
+.col-box-image img {
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+}

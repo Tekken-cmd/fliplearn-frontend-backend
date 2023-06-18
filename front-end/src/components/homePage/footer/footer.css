@@ -1,0 +1,28 @@
+/*------------------------------- Footer Section -------------------------------*/
+
+footer {
+    height: 10rem;
+    text-align: center;
+}
+
+footer .container-fluid {
+    background-color: #08192b;
+    height: 100%;
+}
+
+.social-icon {
+    margin: 40px 10px 20px;
+    font-size: 1.5rem;
+    color: #869fb2;
+}
+
+footer p {
+    color: #869fb2;
+}
+
+.social-icon:hover {
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #2bc48a;
+    padding: 5px;
+}

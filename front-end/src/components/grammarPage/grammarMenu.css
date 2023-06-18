@@ -1,0 +1,95 @@
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 20px;
+    width: 250px;
+    background-color: #0e2a47;
+    position:fixed;
+    height: 90%;
+    overflow: auto;
+    /* border-radius: 15px; */
+    scroll-behavior: smooth;
+}
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: #fff;
+    padding: 16px;
+    text-decoration: none;
+}
+/* Links on mouse-over */
+.sidebar a:hover {
+    border-style: solid;
+    border-color: #2bc48a;
+    border-radius: 15px;
+    color: white;
+}
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content {
+    margin-left: 255px;
+    padding: 30px;
+    height: auto;
+    background-color: #0e2a47;
+    /* border-radius: 15px; */
+    scroll-behavior: smooth;
+}
+.content h4 {
+    color: #2bc48a;
+    font-size: 20px;
+}
+.grammar-content {
+    padding: 10px;
+}
+.content h5 {
+    color: #2bc48a;
+}
+.grammar-explanation {
+    color: #fff;
+}
+.content p {
+    color: #fff;
+}
+
+.star {
+    color: yellow;
+}
+
+
+  
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        padding-right: 8px;
+    }
+    div.content {
+        margin: 20px 0;
+    }
+    .dropdown-container, .dropdown-container a {
+        width: 100%;
+        color: #ccc;
+    }
+    h4{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h5{
+        font-size: 16px;
+    }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+

@@ -24,6 +24,6 @@ password - (Varchar(255)) not null
 5. After installations are successfull, in VS Code open the project and 
     run the front-end by command "npm start"
     run the back-end by command "nodemon server.js"
-    
-                                                                                                                                  By Atakhanov Akbarjon
-                                                                                                                                             06/18/2023
+----------------------------------------------------------------------------------------------------------------------
+By Atakhanov Akbarjon
+         06/18/2023
